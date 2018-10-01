@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private List<Movie> movieList;
      private ProgressDialog pd;
     private SwipeRefreshLayout swipeRefreshLayout;
-    public static  final String LOG_TAG=MoviesAdapter.class.getName();
+    private static  final String LOG_TAG=MoviesAdapter.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         });
     }
 
-    public Activity getActivity()
+    private Activity getActivity()
     {
         Context context=this;
         while (context instanceof ContextWrapper) {

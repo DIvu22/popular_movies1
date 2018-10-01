@@ -13,8 +13,8 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 
 public class DetailActivity extends AppCompatActivity {
-    TextView movie_name,plot,userrating,release;
-    ImageView imageView;
+   private TextView movie_name,plot,userrating,release;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -59,8 +59,8 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
 
     public  class  MyViewHolder extends  RecyclerView.ViewHolder{
 
-         public TextView title,userrating;
-         public ImageView thumbnail;
+         private TextView title,userrating;
+         private  ImageView thumbnail;
 
          public  MyViewHolder(View view)
          {
