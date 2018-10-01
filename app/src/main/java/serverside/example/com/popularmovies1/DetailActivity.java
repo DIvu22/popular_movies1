@@ -27,9 +27,9 @@ public class DetailActivity extends AppCompatActivity {
     initCollapsingToolbar();
 
     imageView=(ImageView)findViewById(R.id.thumbnail_image_header);
-    movie_name=(TextView)findViewById(R.id.movie_title);
+    movie_name=(TextView)findViewById(R.id.title);
     plot=(TextView)findViewById(R.id.plot_synposis);
-    userrating=(TextView)findViewById(R.id.userrating);
+    userrating=(TextView)findViewById(R.id.user_rating);
     release=(TextView)findViewById(R.id.release_date);
 
         Intent newIntent=getIntent();
